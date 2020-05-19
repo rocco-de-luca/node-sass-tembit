@@ -1,0 +1,41 @@
+
+main{
+    background-color: #ffe7d2;
+    width: 100%;
+    min-height: 600px;
+    header{
+        width: 80%;
+        margin: 0 auto;
+        text-align: center;
+        color: $text-color;
+        padding: 80px;
+        font-size: 26px;
+        line-height: 1.533334;
+    }
+    section{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding: 40px 0;
+    .card{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+        flex-basis: 200px;
+        padding: 20px;
+        margin: 5px 20px;   
+    }
+    img{
+        width: 200px;
+        height: 150px;
+    }
+    p{
+        margin-top: 20px;
+        font-size: 1.125rem;
+        color: $text-color;
+    }
+ }
+}   
+    
+
